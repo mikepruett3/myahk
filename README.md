@@ -1,4 +1,4 @@
-# Installation:
+# Installation
 
 Install the latest version of AutoHotKey from https://autohotkey.com/
 
@@ -19,4 +19,13 @@ Create a shortcut of the appropriate .AHK script in your Startup folder (Drag & 
     $SC.TargetPath = "$Env.UserProfile\<scriptname.ahk>"
     $SC.Save()
 
+## Scripts
+
+### default.ahk
+
+The default script, should contain only items that are re-usable across multiple systems
+
+### launcher.ahk
+
+A keyboard program launcher, written in AHK. Its crap, but usefull
 
